@@ -17,19 +17,19 @@ Description: Python-based tool for converting PCAPNG files to HAR files
 
 Package: pirogue-admin-client
 Architecture: all
-Version: 2.0.7
+Version: 2.1.0
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 75
-Depends: python3-cryptography (>= 38.0.4), python3-grpcio, python3-pirogue-admin-api (= 2.0.5), python3-yaml, python3-cryptography (<< 38.1), python3:any
+Depends: python3-cryptography, python3-grpcio, python3-pirogue-admin-api (= 2.0.5), python3-yaml, python3:any
 Recommends: qrencode
-Filename: ./pirogue-admin-client_2.0.7_all.deb
-Size: 13488
-MD5sum: f2db776f587d22b8b179ff630d9aee9c
-SHA1: 10efca77a533c9f2313833874be557f71e9b335b
-SHA256: 9c88855cb9a323a2f5bb1639304f65519e0caf3dd98e2147678d27f77537d4ed
-SHA512: e4484fe9c2e7106f94a17c1fe3a249412dead4ca06715ff80ff2b2e14ffaa2bcb75ef689d62135509a315d8caaf5d7843d01ab01722ac646851e1ad6a37b09f1
+Filename: ./pirogue-admin-client_2.1.0_all.deb
+Size: 13116
+MD5sum: 0f84baebef8075c14bd5d26fd1d02757
+SHA1: 90da2fd12ea4297d741a18e956d8abc73ad6568c
+SHA256: 0ef7a8122f4c0f8447b3d68fd1b5df19d630f86acdb0659faa965e5056a90cbf
+SHA512: 9b59d1f9d57e888d3ec454395be16c68c46ba77a0597f76890fff7857db033ff032b4b9eb34778aa991c136d917e46b1a77796dad04ae052b6b46627c050e6da
 Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
 Description: PiRogue administration client
  This package allows the user to administrate a PiRogue instance locally
