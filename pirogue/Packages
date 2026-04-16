@@ -78,17 +78,17 @@ Description: Install PiRogue wi-fi AP configuration
 
 Package: pirogue-archive-keyring
 Architecture: all
-Version: 0.1
+Version: 0.2
 Priority: optional
 Section: utils
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 17
-Filename: ./pirogue-archive-keyring_0.1_all.deb
-Size: 6458
-MD5sum: 0d7e281d2c633fec32f2025f82cdfc76
-SHA1: 974879a1cd7c4e100e262fd5fbbfa70bb813b5b4
-SHA256: 99a3babbbb0e005798a7de09626e7758ba1f7ba84c9624e8ac6952a99602fc1c
-SHA512: 9680c5aff1643cc67e0c9e3302f16228af45921ba624074f9ceee5dc333b0342e8f83745c9d48465eb1914bff7c940cdac9b6a65834e564e9b403175362f02be
+Installed-Size: 18
+Filename: ./pirogue-archive-keyring_0.2_all.deb
+Size: 6900
+MD5sum: e07b14b0fd955415adaccfe061ed25d8
+SHA1: 1e7e807dd2b03f086e8a46fb11214e3b0f739494
+SHA256: 7d8f0d8515f4d542296bca9b793332aed5bc2411f16c38c1340b572ceacebda1
+SHA512: 9c25f328d2ae938872966646e1a18eb51612db9460f47e5bb1a1624e87d7ffade5a350d3874ad2ac4758fe0d212052042602160e1d94075c3bf935abe189b923
 Description: GnuPG archive keys for the PiRogue repository
  The PiRogue repository is digitally signed, and the corresponding public keys,
  required by APT, are available in this package.
