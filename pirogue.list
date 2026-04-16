@@ -1,0 +1,2 @@
+deb https://pts-project.org/debian-13/pirogue ./
+deb https://pts-project.org/debian-13/pirogue-3rd-party ./
