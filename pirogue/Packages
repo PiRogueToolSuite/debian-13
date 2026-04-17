@@ -268,40 +268,20 @@ Description: Provision PiRogue maintenance scripts
 
 Package: pirogue-mongoose
 Architecture: all
-Version: 1.0.3
-Priority: optional
-Section: misc
-Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 231
-Depends: suricata, suricata-update, python3-communityid, python3-geoip2, python3-nfstream, python3-numpy (>= 1:1.22), python3-pydantic, python3-yaml, python3-watchdog, python3-requests, python3-sqlalchemy, python3-systemd, pirogue-admin (>= 2.0.0), python3:any
-Conflicts: pirogue-eve-collector, pirogue-flow-inspector
-Replaces: pirogue-eve-collector, pirogue-flow-inspector
-Filename: ./pirogue-mongoose_1.0.3_all.deb
-Size: 43776
-MD5sum: 4155aad361aeadc71c52c30b1078e7ab
-SHA1: 5887f66bd3e1c0a33f7e62ee76595137f7a63cff
-SHA256: 547f35b6f765a4103f84cd60cda14f14b48590b68b6cb397af566b22cd038204
-SHA512: de9722936f1ef679815e9fff54d3032f526659d2f683e4f4b5fcb5b501bc253a2f2e817a6c5e29c6c1b22a0704a003b8a13165691957aa350885c7f47cf23585
-Homepage: https://github.com/PiRogueToolSuite/mongoose
-Description: A Python daemon and library for collecting, enriching, storing and
-  forwarding network events from Suricata and NFStream.
-
-Package: pirogue-mongoose
-Architecture: all
-Version: 1.0.5
+Version: 1.0.6
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 232
-Depends: suricata, suricata-update, python3-communityid, python3-geoip2, python3-nfstream, python3-numpy (>= 1:1.22), python3-pydantic, python3-yaml, python3-watchdog, python3-requests, python3-sqlalchemy (>= 1.4.46), python3-systemd, pirogue-admin (>= 2.0.0), python3:any
+Depends: suricata, suricata-update, python3-communityid, python3-geoip2, python3-nfstream, python3-numpy (>= 1:1.22), python3-pydantic, python3-yaml, python3-watchdog, python3-requests, python3-sqlalchemy, python3-systemd, pirogue-admin (>= 2.0.0), python3:any
 Conflicts: pirogue-eve-collector, pirogue-flow-inspector
 Replaces: pirogue-eve-collector, pirogue-flow-inspector
-Filename: ./pirogue-mongoose_1.0.5_all.deb
-Size: 44100
-MD5sum: a53064e75c46630232c171f0b99c220e
-SHA1: 9ee0f2a9375c70cc6e2d230a07b187ceb6e32c66
-SHA256: e9a696637f755bf2abeaffdd6973d1f12b32cd27fa4ae5b7e1f5b08bc08d3cde
-SHA512: 4aad47586205cbffc7d3c2a19da30555b1cef4a220e4b8a25e16f31fce23eb8eadf000046ad14b72f95d2fa1894bb2ecb4c868946a111f9825939af8512e34a5
+Filename: ./pirogue-mongoose_1.0.6_all.deb
+Size: 44184
+MD5sum: f6fee626bffd5a98d24e789ae577713c
+SHA1: d53167160e30887c73f427496161faaac03a18df
+SHA256: 5e23e850b2345a032f7d5abd9679afb311bb073eefaabf293afffa5e17d3508b
+SHA512: bb401aa03137ad5b591c7800843ba7111c0564d29a6048be21d3447c7132ace796752a57d5b05f2c5ddf35e0c0786db7300aa3871d5f5b3dfd1205698f003232
 Homepage: https://github.com/PiRogueToolSuite/mongoose
 Description: A Python daemon and library for collecting, enriching, storing and
   forwarding network events from Suricata and NFStream.
