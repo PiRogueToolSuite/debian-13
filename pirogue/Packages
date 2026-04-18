@@ -37,20 +37,20 @@ Description: PiRogue administration client
 
 Package: pirogue-admin
 Architecture: all
-Version: 2.0.14
+Version: 2.1.0
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 240
+Installed-Size: 237
 Depends: python3-grpcio, python3-pirogue-admin-api (= 2.0.5), python3-psutil, python3-pystemd, python3-requests, python3-rich, python3-yaml, qrencode, python3-pyroute2, python3:any
 Conflicts: pirogue-cli
 Replaces: pirogue-cli
-Filename: ./pirogue-admin_2.0.14_all.deb
-Size: 52084
-MD5sum: 9a2077e5aa4003fbd1c28f54aa78ec47
-SHA1: 9f4704af14f918aaae27b79cb5d74a1a6b2f8f1f
-SHA256: e5d04323b035297c5e25507c95048943aa55dd02f7653f3450e35e5ab3cc4a69
-SHA512: 1af5b39793077b7c266bf3deef72c683a6a701cffbf956a25c4d1449ec2715e65ee68bb74c55b536b93af5b59a9b11d4b0cc07d957fc5702bdc9f09594a1235f
+Filename: ./pirogue-admin_2.1.0_all.deb
+Size: 51364
+MD5sum: a42d48882163879cf88f42a926fe5660
+SHA1: e659fb72b0cfc83000e23c4071ecdb45afe5934d
+SHA256: f2be2f62d45695b33f1617696719756f9b47880f9a787343f7f9a50c058d2a08
+SHA512: fbdc9166a8b53447a51ce6e555af9feb8df2add7ce036169c9e9f08a6141a4bc93f7e98b033b3bfe5b10e2bde4053dde8bb574cce990dcac1a84a0ffcbf780e4
 Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
 Description: PiRogue administration tool
  This package features auto-detection to facilitate PiRogue's deployment, and
