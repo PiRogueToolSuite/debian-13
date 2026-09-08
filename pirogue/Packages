@@ -322,6 +322,23 @@ SHA512: 902f180e2e1a0cf6c2c37270a445f9746255e5872d186142d83c706e2fd8f5baf3d4d507
 Homepage: https://github.com/PiRogueToolSuite/octopus
 Description: Dynamic analysis framework for Android apps.
 
+Package: pirogue-octopus
+Architecture: all
+Version: 1.2.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 14695
+Depends: frida, python3-click, python3-requests, python3-usb1, python3-ppad, python3-ppadb, python3:any
+Filename: ./pirogue-octopus_1.2.0_all.deb
+Size: 3832548
+MD5sum: f60b92b62a7c58240454aab4cdb227af
+SHA1: e21360e51d5bb49bd5ff5e55185e1ab1610bcf3b
+SHA256: 68527107ce70554c30b37b7566498e83106c970ec94b0f10b8dc6d9b8733a843
+SHA512: 83a5779a61cadec45f92ba51c3557f7dbf6232d9bc51e99f9ec2f968d54b443ee5217599981b18699e6a1b3f0b445d59dda96dc5dee4b596d065686d658175ed
+Homepage: https://github.com/PiRogueToolSuite/octopus
+Description: Dynamic analysis framework for Android apps.
+
 Package: pirogue-screen-st7789-240x240
 Architecture: all
 Version: 2.0.0
