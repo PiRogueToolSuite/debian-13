@@ -145,6 +145,23 @@ SHA512: 33183cf55eb3c2ae237b7c17edf091d5f3c3c8626c0be6e2fca25391ca5d04e805dca5b8
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue dashboards
 
+Package: pirogue-dashboard
+Architecture: all
+Version: 2.0.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 132
+Depends: grafana, pirogue-admin (>= 2.0.0)
+Filename: ./pirogue-dashboard_2.0.3_all.deb
+Size: 21216
+MD5sum: b919effc90d25d1defb91035215cbc82
+SHA1: 59f143c38214b6d2ea7d73ef0b0b32f8219179fa
+SHA256: 2b9339ebe73789f92b5cef490bd3b60a066e9674972b148f575449c55863f2b2
+SHA512: ec51358b6d173e597fc5a7a5091d48a5774c18213000de6df0bc02443c1d00490e56c8696dab39940226df63b075a3d918f98e6bc1fec3c7a9a9458e484d6018
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue dashboards
+
 Package: pirogue-eve-collector
 Architecture: all
 Version: 2.0.0
@@ -329,13 +346,13 @@ Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 14695
-Depends: frida, python3-click, python3-requests, python3-usb1, python3-ppad, python3-ppadb, python3:any
+Depends: frida, python3-click, python3-requests, python3-usb1, python3-ppadb, python3:any
 Filename: ./pirogue-octopus_1.2.0_all.deb
-Size: 3832548
-MD5sum: f60b92b62a7c58240454aab4cdb227af
-SHA1: e21360e51d5bb49bd5ff5e55185e1ab1610bcf3b
-SHA256: 68527107ce70554c30b37b7566498e83106c970ec94b0f10b8dc6d9b8733a843
-SHA512: 83a5779a61cadec45f92ba51c3557f7dbf6232d9bc51e99f9ec2f968d54b443ee5217599981b18699e6a1b3f0b445d59dda96dc5dee4b596d065686d658175ed
+Size: 3832888
+MD5sum: ff9612d2337bbc59a1637549c7d0c371
+SHA1: 6063f146c1837ea70aa7c8b9807b9ea93cec5037
+SHA256: d7cc96122eef6abf2639c11d48bbeb17b55e865fccef6609860ac7cc18f9419c
+SHA512: 91f6d9704c9e02fb733f51173f3b94b1ff876f264c0abc54a3fc1bd5b7ddad1ecd1e511d2bc16826231f68d44913fa564a49e8da49be62aa91678ac54febb931
 Homepage: https://github.com/PiRogueToolSuite/octopus
 Description: Dynamic analysis framework for Android apps.
 
