@@ -41,14 +41,14 @@ Version: 3.0.0
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 1774
-Depends: pirogue-admin-client (>= 3.0.0), python3-flask, python3-gunicorn, python3-yaml, python3-werkzeug, python3:any
+Installed-Size: 1635
+Depends: pirogue-admin-client (>= 3.0.0), python3-flask (>= 2.2.2), python3-gunicorn, python3-yaml, python3-werkzeug, python3:any
 Filename: ./pirogue-admin-web_3.0.0_all.deb
-Size: 337180
-MD5sum: fde6eeb02c727dc43e160c3ebfb13853
-SHA1: d87beeadf3d758fa2fa063627ff82ae2ee5766c8
-SHA256: b56e2289c493e2b92a69f31f08133b8a2daa1224499a3836b0a6b7eae6ebfae5
-SHA512: efcdae6c52b6c6af684b5d5548d8288dc3012aa202e94012c2be540e5d467cfa7df7c5392364712d39bb65b0fc889ff62549a3f7a851310bad946937b071c73a
+Size: 332728
+MD5sum: b0657df83afbc81357ac7ac2f450a4cb
+SHA1: 03934ebab62a67a674eea9781802b2b1dafb78eb
+SHA256: 5073ccc78ca2b2ea730560a4fe2214d96ca4d8df404c80e478b34abb95c3c719
+SHA512: 4aba97187c82ecaef7930c097a256b961ac08b3705a70839e2fcce31eabad11e35d3ac974ffe3ee508ca83365ad736fdfacd6b557ede6d9a76901c0de2e36edf
 Homepage: https://github.com/PiRogueToolSuite/pirogue-admin-web
 Description: PiRogue administration web version
  This package features the web version of pirogue-admin-client.
