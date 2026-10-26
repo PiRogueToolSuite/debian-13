@@ -75,6 +75,28 @@ Description: PiRogue administration tool
  coordinates configuration file updates alongside relevant service restarts
  whenever the configuration is updated.
 
+Package: pirogue-admin
+Architecture: all
+Version: 3.0.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 242
+Depends: python3-grpcio, python3-pirogue-admin-api (= 3.0.0), python3-psutil, python3-pystemd, python3-requests, python3-rich, python3-sqlalchemy, python3-yaml, qrencode, python3-pyroute2, python3:any
+Conflicts: pirogue-cli
+Replaces: pirogue-cli
+Filename: ./pirogue-admin_3.0.1_all.deb
+Size: 52692
+MD5sum: 08776e71f781b88dc050ac57d51bdb74
+SHA1: 10ffa6bca758900380e0357f5d30e41f48d3ecee
+SHA256: f23968220293a120f8f8f7e2099218377fb7f9e04312f0d7acbe16b6ac41629e
+SHA512: f4a7cf0646c9d1ea1fc7af614d0605ae4efe96edb1b8c158ff3ecf948ea8640e88da7528ef04071accb2ee5dae480f2559cc7da3971d05cf747d49c364e16a49
+Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
+Description: PiRogue administration tool
+ This package features auto-detection to facilitate PiRogue's deployment, and
+ coordinates configuration file updates alongside relevant service restarts
+ whenever the configuration is updated.
+
 Package: pirogue-ap
 Architecture: all
 Version: 1.1.2
